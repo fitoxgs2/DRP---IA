@@ -46,6 +46,9 @@ int sumatoria(vector<bool> lista){
 //Actualiza la lista de OHCA cubiertos
 void actualizar_cubiertos(unsigned n_size){
     int aed,ohca;
+    for(ohca = 0; ohca < n_size; ohca++){
+        cubiertos[ohca] = 0;
+    }
     for(aed = 0; aed < n_size; aed++){
         if (ubicados[aed]){
             for(ohca = 0; ohca < n_size; ohca++){
@@ -191,7 +194,7 @@ int main(int argc, char *argv[])
     cout << "Porcentaje de eventos cubiertos: " << 100*sumatoria(cubiertos)/N << "%" << endl;
     cout << "Tiempo de ejecucion: " << tiempo_ejecucion << " segundos." << endl;
     cout << "Cantidad de iteraciones alcanzadas: " << 1 << endl;
-    cout << "Solucion inicial: " << endl;
+    cout << "Solucion: " << endl;
     for (i=0; i<N; i++){
         if(ubicados[i])
             cout << OHCAs[i].fi <<"-"<< OHCAs[i].se << "(nuevo)" << endl;
