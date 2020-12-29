@@ -1,0 +1,11 @@
+  CC = g++
+
+  TARGET = IA
+ 
+  all: $(TARGET)
+ 
+  $(TARGET): $(TARGET).c
+              $(CC) -o $(TARGET) $(TARGET).cpp
+ 
+  clean:
+              $(RM) $(TARGET)
