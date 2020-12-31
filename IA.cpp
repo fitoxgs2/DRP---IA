@@ -105,19 +105,19 @@ float greedy(float budget, unsigned n_size){
     }
     //El primer AED ubicado es aleatorio, distinto de uno existente.
     srand(time(NULL));
-    int primer_aed = rand() % n_size;
-    while(ubicados[primer_aed]){
-        primer_aed = rand() % n_size;
+    int placed = rand() % n_size;
+    while(ubicados[placed]){
+        placed = rand() % n_size;
     }
     gastos = gastos + 1;
-    ubicados[primer_aed] = 1;
+    ubicados[placed] = 1;
     actualizar_cubiertos(n_size);
     
     while(gastos<budget){
         best_index = -1;
         best_value = 0;
         for (i=0; i<n_size; i++){
-            if(!ubicados[i]){
+            if(!ubicados[i] && !radios_cubiertos[i][placed]){
                 if(greedy_choice_list[i] > best_value){
                     best_index = i;
                     best_value = greedy_choice_list[i];
@@ -126,6 +126,7 @@ float greedy(float budget, unsigned n_size){
         }
         gastos = gastos + 1;
         ubicados[best_index] = 1;
+        placed = best_index;
         actualizar_cubiertos(n_size);
     }
     return gastos;
@@ -169,6 +170,7 @@ int main(int argc, char *argv[])
     gastos = greedy(B,N);
 
     //Hill climbing (se detiene al llegar a la cima)
+    int contador = 0;
     while(true){
         //Se comienza a iterar en el vecindario para obtener el mejor swap posible
         MM[0] = -1;
@@ -180,20 +182,21 @@ int main(int argc, char *argv[])
                 vecindario_swap(i, MM, N);
             }
         }
-        if(MM[2] >= 0){
+        if(MM[2] > 0){
             ubicados[MM[0]] = 0;
             ubicados[MM[1]] = 1;
             actualizar_cubiertos(N);
         } else {
             break;
         }
+        contador++;
     }
     clock_t fin = clock();
     tiempo_ejecucion += (double)(fin-inicio)/CLOCKS_PER_SEC;
     cout << "Numero de eventos cubiertos: " << sumatoria(cubiertos) <<endl;
     cout << "Porcentaje de eventos cubiertos: " << 100*sumatoria(cubiertos)/N << "%" << endl;
     cout << "Tiempo de ejecucion: " << tiempo_ejecucion << " segundos." << endl;
-    cout << "Cantidad de iteraciones alcanzadas: " << 1 << endl;
+    cout << "Cantidad de iteraciones alcanzadas: " << contador << endl;
     cout << "Solucion: " << endl;
     for (i=0; i<N; i++){
         if(ubicados[i])
