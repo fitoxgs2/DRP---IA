@@ -1,0 +1,206 @@
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP/SJC324-3.txt
+============================================================
+Numero de eventos cubiertos: 305
+Porcentaje de eventos cubiertos: 94%
+Tiempo de ejecucion: 0.348469 segundos.
+Cantidad máxima de iteraciones alcanzadas: 5
+Solucion: 
+409298-435127(nuevo)
+409575-436677(nuevo)
+410622-435569(nuevo)
+Presupuesto sobrante: 0
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP/SJC402-3.txt
+============================================================
+Numero de eventos cubiertos: 353
+Porcentaje de eventos cubiertos: 87%
+Tiempo de ejecucion: 0.580029 segundos.
+Cantidad máxima de iteraciones alcanzadas: 6
+Solucion: 
+409517-434818(nuevo)
+409482-436380(nuevo)
+410746-435470(nuevo)
+Presupuesto sobrante: 0
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP/SJC500-3.txt
+============================================================
+Numero de eventos cubiertos: 339
+Porcentaje de eventos cubiertos: 67%
+Tiempo de ejecucion: 0.39678 segundos.
+Cantidad máxima de iteraciones alcanzadas: 2
+Solucion: 
+409479-434592(nuevo)
+409946-436015(nuevo)
+407858-434164(nuevo)
+Presupuesto sobrante: 0
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP/SJC500-7.txt
+============================================================
+Numero de eventos cubiertos: 494
+Porcentaje de eventos cubiertos: 98%
+Tiempo de ejecucion: 3.97567 segundos.
+Cantidad máxima de iteraciones alcanzadas: 8
+Solucion: 
+409479-434592(nuevo)
+409811-435545(nuevo)
+409575-436677(nuevo)
+410888-435542(nuevo)
+407666-434347(nuevo)
+408138-433801(nuevo)
+409045-434202(nuevo)
+Presupuesto sobrante: 0
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP/SJC708-5.txt
+============================================================
+Numero de eventos cubiertos: 563
+Porcentaje de eventos cubiertos: 79%
+Tiempo de ejecucion: 3.50633 segundos.
+Cantidad máxima de iteraciones alcanzadas: 6
+Solucion: 
+409517-434818(nuevo)
+409573-436533(nuevo)
+410746-435470(nuevo)
+407858-434164(nuevo)
+409061-433610(nuevo)
+Presupuesto sobrante: 0
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP/SJC708-7.txt
+============================================================
+Numero de eventos cubiertos: 652
+Porcentaje de eventos cubiertos: 92%
+Tiempo de ejecucion: 9.03419 segundos.
+Cantidad máxima de iteraciones alcanzadas: 10
+Solucion: 
+409517-434818(nuevo)
+409573-436533(nuevo)
+410746-435470(nuevo)
+407952-434326(nuevo)
+407041-433312(nuevo)
+406702-434774(nuevo)
+409061-433610(nuevo)
+Presupuesto sobrante: 0
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP/SJC708-11.txt
+============================================================
+Numero de eventos cubiertos: 700
+Porcentaje de eventos cubiertos: 98%
+Tiempo de ejecucion: 18.0323 segundos.
+Cantidad máxima de iteraciones alcanzadas: 9
+Solucion: 
+409754-435326(nuevo)
+409946-436015(nuevo)
+409553-436813(nuevo)
+409662-434465(nuevo)
+410771-435417(nuevo)
+406950-433229(nuevo)
+406714-434707(nuevo)
+407156-434565(nuevo)
+408428-434379(nuevo)
+408138-433801(nuevo)
+409513-433369(nuevo)
+Presupuesto sobrante: 0
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP-AEDs/SJC324-3.txt
+============================================================
+Numero de eventos cubiertos: 306
+Porcentaje de eventos cubiertos: 94%
+Tiempo de ejecucion: 0.175118 segundos.
+Cantidad máxima de iteraciones alcanzadas: 2
+Solucion: 
+409434-435030(nuevo)
+409573-436533(nuevo)
+410622-435569(nuevo)
+Presupuesto sobrante: 0.2
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP-AEDs/SJC402-3.txt
+============================================================
+Numero de eventos cubiertos: 353
+Porcentaje de eventos cubiertos: 87%
+Tiempo de ejecucion: 0.562482 segundos.
+Cantidad máxima de iteraciones alcanzadas: 6
+Solucion: 
+409517-434818(nuevo)
+409482-436380(nuevo)
+410684-435564(nuevo)
+Presupuesto sobrante: 0.2
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP-AEDs/SJC500-3.txt
+============================================================
+Numero de eventos cubiertos: 339
+Porcentaje de eventos cubiertos: 67%
+Tiempo de ejecucion: 0.402017 segundos.
+Cantidad máxima de iteraciones alcanzadas: 2
+Solucion: 
+409479-434592(nuevo)
+409946-436015(nuevo)
+407858-434164(nuevo)
+Presupuesto sobrante: 0
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP-AEDs/SJC500-7.txt
+============================================================
+Numero de eventos cubiertos: 498
+Porcentaje de eventos cubiertos: 99%
+Tiempo de ejecucion: 4.45789 segundos.
+Cantidad máxima de iteraciones alcanzadas: 7
+Solucion: 
+409570-435942(nuevo)
+409553-436813(nuevo)
+409610-434773(nuevo)
+410830-435132(nuevo)
+410551-436010(nuevo)
+407666-434347(nuevo)
+408138-433801(nuevo)
+409107-434290(nuevo)
+Presupuesto sobrante: 0
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP-AEDs/SJC708-5.txt
+============================================================
+Numero de eventos cubiertos: 563
+Porcentaje de eventos cubiertos: 79%
+Tiempo de ejecucion: 3.46234 segundos.
+Cantidad máxima de iteraciones alcanzadas: 6
+Solucion: 
+409517-434818(nuevo)
+409573-436533(nuevo)
+410746-435470(nuevo)
+407858-434164(nuevo)
+409061-433610(nuevo)
+Presupuesto sobrante: 0.2
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP-AEDs/SJC708-7.txt
+============================================================
+Numero de eventos cubiertos: 639
+Porcentaje de eventos cubiertos: 90%
+Tiempo de ejecucion: 10.9113 segundos.
+Cantidad máxima de iteraciones alcanzadas: 12
+Solucion: 
+409479-434592(nuevo)
+409792-435978(nuevo)
+409553-436813(nuevo)
+410771-435417(nuevo)
+407041-433312(nuevo)
+407156-434565(nuevo)
+408391-433914(nuevo)
+Presupuesto sobrante: 0.4
+============================================================
+INSTANCIA :     DRP-INSTANCIAS/SJC-DRP-AEDs/SJC708-11.txt
+============================================================
+Numero de eventos cubiertos: 704
+Porcentaje de eventos cubiertos: 99%
+Tiempo de ejecucion: 22.6337 segundos.
+Cantidad máxima de iteraciones alcanzadas: 10
+Solucion: 
+409570-435942(nuevo)
+409479-434592(nuevo)
+409575-436677(nuevo)
+408865-436634(nuevo)
+410079-435087(nuevo)
+410252-435543(nuevo)
+410888-435542(nuevo)
+408122-434634(nuevo)
+406950-433229(nuevo)
+406854-434684(nuevo)
+408138-433801(nuevo)
+409513-433369(nuevo)
+Presupuesto sobrante: 0

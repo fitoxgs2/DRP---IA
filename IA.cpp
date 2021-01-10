@@ -113,7 +113,7 @@ float greedy(float budget, unsigned n_size){
     ubicados[placed] = 1;
     actualizar_cubiertos(n_size);
     
-    while(gastos<budget){
+    while(gastos + 1 <= budget){
         best_index = -1;
         best_value = 0;
         for (i=0; i<n_size; i++){
@@ -193,10 +193,13 @@ int main(int argc, char *argv[])
     }
     clock_t fin = clock();
     tiempo_ejecucion += (double)(fin-inicio)/CLOCKS_PER_SEC;
+    cout << "============================================================" << endl;
+    cout << "INSTANCIA :     " << argv[1] << endl;
+    cout << "============================================================" << endl;
     cout << "Numero de eventos cubiertos: " << sumatoria(cubiertos) <<endl;
     cout << "Porcentaje de eventos cubiertos: " << 100*sumatoria(cubiertos)/N << "%" << endl;
     cout << "Tiempo de ejecucion: " << tiempo_ejecucion << " segundos." << endl;
-    cout << "Cantidad de iteraciones alcanzadas: " << contador << endl;
+    cout << "Cantidad máxima de iteraciones alcanzadas: " << contador << endl;
     cout << "Solucion: " << endl;
     for (i=0; i<N; i++){
         if(ubicados[i])
@@ -205,3 +208,4 @@ int main(int argc, char *argv[])
     cout << "Presupuesto sobrante: " << B-gastos <<endl;
     return 0;
 }
+
